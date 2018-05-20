@@ -1,4 +1,4 @@
-package stringOperations;
+package basicCode;
 
 public class Factorial {
 
@@ -10,12 +10,13 @@ public class Factorial {
 		int fact=1;
 		
 		// check for prime
-		for(int i=1;i<number;i++){
+		for(int i=1;i<number/2;i++){
 			int rem=number%i;
 			if(rem==0){
 				count++;
 			}
 		}
+		System.out.println("is prime :"+isPrime(number));
 		
 		if(count==1){
 			System.out.println("Prime number");
@@ -28,9 +29,24 @@ public class Factorial {
 		for(int j=1;j<=number;j++){
 			fact=fact*j;
 		}
-		
 		System.out.println("factorial is: "+fact);
 
+		
+		
+		
 	}
+	
 
+	
+	 public static boolean isPrime(int n) {  
+	       if (n <= 1) {  
+	           return false;  
+	       }  
+	       for (int i = 2; i <= Math.sqrt(n); i++) {  
+	           if (n % i == 0) {  
+	               return false;  
+	           }  
+	       }  
+	       return true;  
+	   }
 }

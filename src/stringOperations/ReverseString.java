@@ -33,12 +33,12 @@ public class ReverseString {
 		System.out.println();
 
 		// Print words of given string in reverse:"This is test" -> "test is This"
-
 		String[] splitStr=str.split(" ");
+		String finalStr="";
 		for(int i = splitStr.length - 1; i >= 0; i-- ){
-			System.out.println(splitStr[i]+" ");
+			finalStr=finalStr+splitStr[i]+" ";
 		}
-
+		System.out.print(finalStr.trim());
 	}
 
 }

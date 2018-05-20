@@ -35,8 +35,6 @@ public class StringCharacters {
 		// method 2
 
 		for(int i=0;i<characterString.length;i++){
-			int k=(int) characterString[i];	// gets ascii value of each character in string
-
 			if (Character.isLowerCase(characterString[i]))
 				count_lowerCase++;
 			else if(Character.isUpperCase(characterString[i]))
@@ -45,8 +43,6 @@ public class StringCharacters {
 				count_digits++;
 			else if(Character.isSpace(characterString[i]))
 				count_space++;
-
-			//System.out.print(k+",");	// prints ascii values
 		}
 
 		for(int i=0;i<characterString.length;i++){

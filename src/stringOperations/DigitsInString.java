@@ -1,4 +1,4 @@
-package string;
+package stringOperations;
 
 public class DigitsInString {
 
@@ -8,9 +8,9 @@ public class DigitsInString {
 		String str="nkjsgfiu5bjsb6kshdj0njdnx1b12";
 		for (int i = 0; i < str.length(); i++) {
 			if (Character.isDigit(str.charAt(i))) {
-				System.out.println(str.charAt(i));
+				System.out.print(str.charAt(i));
 			}
 		}
-	}
+	} 
 
 }

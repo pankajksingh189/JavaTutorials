@@ -6,18 +6,8 @@ package stringOperations;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * @author pankaj
- *
- */
 public class RemoveDuplicate {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		String s="Pankaj Singh";
 		Set<Character> set=new HashSet<>();
 		StringBuffer sb=new StringBuffer();
@@ -29,8 +19,6 @@ public class RemoveDuplicate {
 			}
 		}
 		System.out.println("Before: "+s);
-		System.out.println("After: "+sb.toString());
-		
+		System.out.println("After: "+sb.toString());	
 	}
-
 }

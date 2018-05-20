@@ -32,14 +32,6 @@ public class Manipulation {
 		int i=2;
 		System.out.printf("Total cost %d and quantity is %d",5,i);
 		System.out.print("\n");
-		System.out.printf("Actual cost %.2f", 5.6988);
-		
-		
-		
-		
-		
-		
+		System.out.printf("Actual cost %.2f", 5.6988);	
 	}
-	
-
 }

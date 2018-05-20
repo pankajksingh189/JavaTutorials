@@ -1,4 +1,4 @@
-package stringOperations;
+package basicCode;
 
 public class Matrix {
 
