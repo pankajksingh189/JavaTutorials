@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 
@@ -22,7 +23,9 @@ public class CollectionsFns {
 		al.add("Rahul");  
 		al.add("Sandeep");
 		al.add("Vijay");
-		
+		al.add(null);
+				
+		System.out.println("No of times 'vijay is added :' "+Collections.frequency(al, "Vijay"));
 		System.out.println("Using Iterator");
 		Iterator<String> itr=al.iterator();//getting Iterator from arraylist to traverse elements  
 		while(itr.hasNext()) 
