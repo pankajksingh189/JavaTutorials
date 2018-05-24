@@ -53,7 +53,7 @@ public class TestCollection {
 		}
 		
 		for(Entry<String,String> key:map.entrySet()){
-			System.out.println(key);
+			System.out.println(key.getKey() +" <-- >" +key.getValue());
 		}
 	}
 
