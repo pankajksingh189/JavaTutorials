@@ -3,6 +3,7 @@ package collection;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 
 
 /*
@@ -25,7 +26,7 @@ public class CollectionsFns {
 		al.add("Vijay");
 		al.add(null);
 				
-		System.out.println("No of times 'vijay is added :' "+Collections.frequency(al, "Vijay"));
+		System.out.println("No of times 'vijay is added :' "+Collections.frequency(al, "Vijay")); // gives number of times element is present
 		System.out.println("Using Iterator");
 		Iterator<String> itr=al.iterator();//getting Iterator from arraylist to traverse elements  
 		while(itr.hasNext()) 
@@ -57,5 +58,25 @@ public class CollectionsFns {
 			System.out.println(itr3.next());  
 		}  
 		System.out.println("Checking if 'Pankaj' is present: " + al.contains("Pankaj"));
+		
+		 List<Integer> list = new ArrayList<Integer>();  
+		 list.add(46);  
+	        list.add(67);  
+	        list.add(24);
+	       
+	        System.out.println("Initial collection value:"+list);  
+	        Collections.addAll(list, 22,100);  
+	        System.out.println("After adding elements collection value:"+list);  
+	        Integer[] val = {1,29,36};  
+	        Collections.addAll(list, val);  
+	        System.out.println("After adding array collection value:"+list);  
+	        System.out.println("Value of maximum element from the collection: "+Collections.max(list)); 
+	        System.out.println("Value of maximum element from the collection: "+Collections.min(list));
+	        Collections.reverse(list);
+	        System.out.println("Value of maximum element from the collection: "+list);
+	        Collections.sort(list);
+	        System.out.println("Value of maximum element from the collection: "+list);
+	        Collections.reverse(list);
+	        System.out.println("Value of maximum element from the collection: "+list);
 	}
 }
