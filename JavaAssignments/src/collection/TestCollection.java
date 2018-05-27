@@ -51,7 +51,6 @@ public class TestCollection {
 		for(String key:map.keySet()){
 			System.out.println(map.get(key));	// prints value
 		}
-		
 		for(Entry<String,String> key:map.entrySet()){
 			System.out.println(key.getKey() +" <-- >" +key.getValue());
 		}

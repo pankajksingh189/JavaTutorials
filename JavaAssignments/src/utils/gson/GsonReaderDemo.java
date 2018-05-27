@@ -7,6 +7,8 @@ import java.io.IOException;
 
 import com.google.gson.Gson;
 
+// Execute GsonWriterDemo first to create Member.json file
+
 public class GsonReaderDemo {
 
 	public static void main(String[] args){
