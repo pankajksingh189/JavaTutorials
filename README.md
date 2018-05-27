@@ -1,6 +1,6 @@
 # JavaTutorials
 
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrAA3odQDVtY3uVChCNK9aw7xdxn_yLw9kpgYO5fgPOCIdH3Qa
+![alt tag](images.png)
 
 This repo is for Knowledge sharing purpose only. It contains very crisp and clear concepts of Java for begineers. Please do contribute to it.
 
