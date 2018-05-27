@@ -1,6 +1,6 @@
 # JavaTutorials
 
-![Alt text](images.png "Lets share our knowledge and make society better.")
+![alt tag](images.png "Lets share our knowledge and make society better.")
 
 This repo is for Knowledge sharing purpose only. It contains very crisp and clear concepts of Java for begineers. Please do contribute to it.
 
