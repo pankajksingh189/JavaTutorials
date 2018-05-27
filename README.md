@@ -1,6 +1,6 @@
 # JavaTutorials
 
-![Alt text](/JavaTutorials/images.png)
+![Alt text](images.png)
 
 This repo is for Knowledge sharing purpose only. It contains very crisp and clear concepts of Java for begineers. Please do contribute to it.
 
