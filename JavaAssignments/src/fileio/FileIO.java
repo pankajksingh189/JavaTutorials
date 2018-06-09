@@ -1,8 +1,6 @@
 package fileio;
 
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
@@ -15,9 +13,19 @@ public class FileIO {
 		Scanner scan = new Scanner(System.in);
 		int number=scan.nextInt();
 		System.out.println(number);
-		BufferedWriter bw=new BufferedWriter(new FileWriter("/Users/Prateek_Saxena03/Desktop/Demo.txt", true));
-		bw.write(number);
-		
+	
+		FileWriter file;
+		BufferedWriter br = null;
+		try {
+			file = new FileWriter(System.getProperty("user.dir")+"/temp.txt");
+			br=new BufferedWriter(file);
+			br.write(number);
+			br.flush();
+			br.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
+		scan.close();
+		br.close();
 	}
-
 }
