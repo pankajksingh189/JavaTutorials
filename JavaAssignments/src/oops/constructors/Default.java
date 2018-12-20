@@ -10,13 +10,13 @@ package oops.constructors;
 public class Default extends Parametrized{
 	
 	public Default() {
-		//super(name);
+		super("rose ");
 		System.out.println("Default");
 	}
 	
 	public Default(String name) {
-		this();
-		//super(name); // comment this to call default constractor of parent class
+		//this();
+		super(name); // comment this to call default constractor of parent class
 		System.out.println("Default name "+name);
 	}
 	public Default(String name,int age) {

@@ -22,11 +22,11 @@ private int age;
 	public static void main(String args[]){
 		String []b={"Apple","Mango","Orange"};
 		PassByRefrence.passByReference(b);
-		System.out.println(b[0]);
+		System.out.println("b: "+b[0]);
 
 		int y=20;
 		PassByRefrence.passByReference(y);
-		System.out.println(y);
+		System.out.println("y: "+y);
 
 		Integer z=new Integer(10);
 		PassByRefrence.passByReference(z);
@@ -34,9 +34,9 @@ private int age;
 
 		PassByRefrence pr=new PassByRefrence();
 		pr.age=20;
-		System.out.println(pr.age);
+		System.out.println("age: "+pr.age);
 		PassByRefrence.passByReference(pr);
-		System.out.println(pr.age);
+		System.out.println("age: "+pr.age);
 		
 	}
 }

@@ -10,5 +10,5 @@ public class NameComparator implements Comparator<Employee>{
 		Employee e2=(Employee)arg1;
 		return e1.name.compareToIgnoreCase(e2.name);
 	}
-
+ 
 }

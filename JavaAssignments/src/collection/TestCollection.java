@@ -17,17 +17,19 @@ public class TestCollection {
 		list.add("selenium");
 		list.add("qtp");
 		list.add("jmeter");
-		System.out.println(list.get(1));
-
+		System.out.println("list.get(1): "+list.get(1));
+		System.out.println("list.remove(0): "+list.remove(0));
+System.out.println("*********************");
 		for(String element:list){
 			System.out.println(element);
 		}
-
+		System.out.println("*********************");
+		System.out.println("list.remove(0): "+list.remove(0));
 		Iterator<String> iterator=list.iterator();
 		while(iterator.hasNext()){
 			System.out.println(iterator.next());
 		}
-
+		System.out.println("*********************");
 
 		Set<String> set=new HashSet<String>();
 		set.add("squish");

@@ -15,6 +15,8 @@ public class ReverseArray {
 					array[i+2]=temp;
 				}
 			}
+		}else {
+			System.out.println("array should contain element X 3");
 		}
 
 		for(int j=0;j<array.length;j++){

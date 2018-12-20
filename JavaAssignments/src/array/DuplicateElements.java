@@ -1,6 +1,5 @@
 package array;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -12,7 +11,7 @@ public class DuplicateElements {
 	public static void main(String[] args) {
 		int[] array={4,3,5,6,5,7,8,4};
 
-		// loop to print all duplicate elements
+		// loop to print all duplicate elements (old)
 		for(int i=0;i<array.length;i++){
 			int count=0;
 			for(int j=i+1;j<array.length;j++){

@@ -14,14 +14,14 @@ public class LinkedListDemo {
 	 */
 	public static void main(String[] args) {
 		LinkedList<String> al=new LinkedList<String>();//creating Linkedlist  
-		al.add("Ravi");//adding object in LinkedList  
-		al.add("Vijay");  
-		al.add("Ravi");
-		al.add("Ajay");  
-		al.add("Pankaj");
-		al.add("Rahul");  
-		al.add("Sandeep");
-		al.add("Vijay");
+		al.add("LinkedList_Ravi");//adding object in LinkedList  
+		al.add("LinkedList_Vijay");  
+		al.add("LinkedList_Ravi");
+		al.add("LinkedList_Ajay");  
+		al.add("LinkedList_Pankaj");
+		al.add("LinkedList_Rahul");  
+		al.add("LinkedList_Sandeep");
+		al.add("LinkedList_Vijay");
 
 		System.out.println("Using Iterator");
 		Iterator<String> itr=al.iterator();//getting Iterator from LinkedList to traverse elements  
@@ -34,8 +34,8 @@ public class LinkedListDemo {
 
 		System.out.println("iterating the elements after removing the elements of al2...");  
 		LinkedList<String> al2=new LinkedList<String>();  
-		al2.add("Ravi");  
-		al2.add("Vijay");  
+		al2.add("LinkedList_Ravi");  
+		al2.add("LinkedList_Vijay");  
 		al.removeAll(al2); 
 		System.out.println();
 		Iterator<String> itr2=al.iterator();  
@@ -44,9 +44,9 @@ public class LinkedListDemo {
 		}  
 
 		System.out.println("iterating the elements after retaining the elements of al2...");  
-		al2.add("Pankaj");  
-		al2.add("Rahul");
-		al2.add("Himanshu");
+		al2.add("LinkedList_Pankaj");  
+		al2.add("LinkedList_Rahul");
+		al2.add("LinkedList_Himanshu");
 		al.retainAll(al2);  
 		Iterator<String> itr3=al.iterator();  
 		while(itr3.hasNext()){  
@@ -54,7 +54,7 @@ public class LinkedListDemo {
 		}
 
 		System.out.println("Adding element at index 1 in al...");  
-		al.add(1,"joshi");
+		al.add(1,"LinkedList_joshi");
 		Iterator<String> itr4=al.iterator();  
 		while(itr4.hasNext()){  
 			System.out.println(itr4.next());  

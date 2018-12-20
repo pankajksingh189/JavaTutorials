@@ -23,7 +23,6 @@ public class TreesetDemo {
 		ts.add("Pathan");
 		ts.add("Virat");
 		ts.add("Sachin"); // This is duplicate element so will not be added again
-		
 		//below will print list in alphabetic order
 		System.out.println("Original Set:" + ts); 		
 		System.out.println("First Name: "+ ts.first());
