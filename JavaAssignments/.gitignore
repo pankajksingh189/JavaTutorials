@@ -1,5 +1,8 @@
 # folders
 /target/
+/test-output/
+/bin/
+
 
 # Compiled class file
 *.class

@@ -12,11 +12,12 @@ public class HashsetDemo {
 		HashSet<String> hs = new HashSet<String>();
 		// Adding element to HashSet
 		hs.add("M");
+		hs.add("M");
 		hs.add("B");
 		hs.add("C");
 		hs.add("A");
-		hs.add("M");
 		hs.add("X");
+		hs.add(null);
 		hs.add(null);
 
 		System.out.println("Size of HashSet=" + hs.size());

@@ -16,6 +16,8 @@ public class B_HashMapDemo {
 		hashMap.put("Pakistan", "Islamabad");  //It is used to insert an entry in this map.
 		hashMap.put("India", "Delhi"); 
 		hashMap.put("SriLanka","Colombo"); 
+		hashMap.put(null,"Colombo__01"); 
+		hashMap.put(null,"Colombo__02"); 
 
 		System.out.println("It is used to return the value for the specified key :"+hashMap.get("India"));		
 		System.out.println("It is used to search the specified key from this map :"+hashMap.containsKey("India"));

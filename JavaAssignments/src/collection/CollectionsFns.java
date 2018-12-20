@@ -30,11 +30,11 @@ public class CollectionsFns {
 		System.out.println("Using Iterator");
 		Iterator<String> itr=al.iterator();//getting Iterator from arraylist to traverse elements  
 		while(itr.hasNext()) 
-			System.out.println(itr.next());  
+			System.out.print(itr.next()+" ");  
 
 		System.out.println("\nUsing Advance for loop");
 		for(String obj:al)  
-			System.out.println(obj);  
+			System.out.print(obj);  
 
 		System.out.println("iterating the elements after removing the elements of al2...");  
 		ArrayList<String> al2=new ArrayList<String>();  

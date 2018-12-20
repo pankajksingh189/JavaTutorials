@@ -31,6 +31,6 @@ public class LinkedHasSetDemo {
 		System.out.println("Updated LinkedHaslhset: " + lhs);
 		System.out.println("\nUsing Advance for loop");
 		for(String value:lhs)  
-			System.out.println(value);  
+			System.out.print(value+" ");  
 	}
 }

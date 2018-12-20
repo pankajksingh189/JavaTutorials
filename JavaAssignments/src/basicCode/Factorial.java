@@ -10,7 +10,7 @@ public class Factorial {
 		int fact=1;
 		
 		// check for prime
-		for(int i=1;i<number/2;i++){
+		for(int i=1;i<Math.sqrt(number);i++){
 			int rem=number%i;
 			if(rem==0){
 				count++;

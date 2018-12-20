@@ -12,7 +12,7 @@ public class Parametrized {
 	}
 	
 	public Parametrized(String name) {
-		this();
+		//this();
 		this.name = name;
 		System.out.println(this.name + " Parametrized class");
 	}

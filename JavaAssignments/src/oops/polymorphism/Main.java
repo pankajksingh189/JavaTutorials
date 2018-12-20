@@ -8,6 +8,9 @@ public class Main {
 	public void doSomething(String name) {
 		System.out.println("Inside menthod with String argument");
 	}
+	public void doSomething(Object obj) {
+		System.out.println("Inside menthod with object argument");
+	}
 
 
 
@@ -36,6 +39,7 @@ public class Main {
 		Main m=new Main();
 		m.doSomething(10);
 		m.doSomething("anything");
+		m.doSomething(null);
 				
 	}
 
