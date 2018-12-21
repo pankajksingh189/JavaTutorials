@@ -10,8 +10,6 @@ public class ArrayMerge {
 	public static void main(String[] args) {
 		int [] array1={2,4,6,8,10,12,14,6,4,8,7,7};
 		int[] array2={1,4,6,8,12,9,11,12,5,7};
-		int [] array1={2,4,6,8,10,12,14,6,4,8};
-		int[] array2={1,5,6,8,12,9,11,12,5,7};
 		//int[] array=new int[array1.length+array2.length];
 		List<Integer> list=new ArrayList<Integer>();
 		List<Integer> list1=new ArrayList<Integer>();
