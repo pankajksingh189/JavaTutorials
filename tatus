@@ -1,0 +1,272 @@
+[33mcommit 96dbbf7f9405abde3c0883fd861a4e0a40b43ec2[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Author: pankajksingh189 <pankajksingh189@gmail.com>
+Date:   Wed May 8 23:51:52 2019 +0530
+
+    commit 2 develop
+
+[33mcommit ed6ee6a3d44df47ce31720f51925bdbfe5baef7c[m
+Merge: 690e19e 150a405
+Author: pankajksingh189 <pankajksingh189@gmail.com>
+Date:   Wed May 8 23:48:08 2019 +0530
+
+    Merge branch 'master' of github.com:pankajksingh189/JavaTutorials into develop
+
+[33mcommit 690e19ec3e4425ab03cfb90af28be89b6b717fe3[m
+Author: pankajksingh189 <pankajksingh189@gmail.com>
+Date:   Wed May 8 23:47:02 2019 +0530
+
+    demo1
+
+[33mcommit 00241399865ab0a30475dd9885b78c7eb548dc0d[m
+Author: pankajksingh189 <pankajksingh189@gmail.com>
+Date:   Fri Dec 21 08:41:39 2018 +0530
+
+    Fixed Compilation issues
+
+[33mcommit 150a405d0cc299255eb3e4202f1af4a6ac3403a8[m
+Merge: 93c2991 01b7ff5
+Author: Himanshu Joshi <hem.tech01@gmail.com>
+Date:   Thu Dec 20 09:42:27 2018 +0530
+
+    Merge pull request #4 from pankajksingh189/develop
+    
+    Develop
+
+[33mcommit 01b7ff51e375611fe8add94ea90070c5e63fadd8[m
+Author: pankajksingh189 <pankajksingh189@gmail.com>
+Date:   Thu Dec 20 09:19:00 2018 +0530
+
+    added bin folder in gitignore
+
+[33mcommit 925ee36fd4c44945274d09dae10bc3be87b4651d[m
+Author: pankajksingh189 <pankajksingh189@gmail.com>
+Date:   Thu Dec 20 09:16:18 2018 +0530
+
+    removed bin folder
+
+[33mcommit f78592174a06c65c232f8d8a5a461b045f9a6506[m
+Merge: 94cf51e 93c2991
+Author: pankajksingh189 <pankajksingh189@gmail.com>
+Date:   Thu Dec 20 09:04:20 2018 +0530
+
+    Merge remote-tracking branch 'remotes/origin/master' into develop
+
+[33mcommit 94cf51e8ec5f66cd4a0a5ed7db397ecca6571566[m
+Author: pankajksingh189 <pankajksingh189@gmail.com>
+Date:   Thu Dec 20 09:02:51 2018 +0530
+
+    Some modifications
+
+[33mcommit 93c2991cad8e052eb238cba98c22b3fd58db25bb[m
+Merge: 982b3d8 73a7e51
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sat Jun 9 15:52:15 2018 +0530
+
+    Merge pull request #3 from pankajksingh189/develop
+    
+    Develop
+
+[33mcommit 73a7e51e752a3fdad836b287eee27feb79c8845a[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Wed May 30 21:52:14 2018 +0530
+
+    Added Properties file and Doc
+
+[33mcommit 75dc8b2d97a9f466718fce2c72fd1ab2bb4c5e9e[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 18:45:23 2018 +0530
+
+    Added .properties parser in utils
+
+[33mcommit 80a95698e344fb10cc463aae8e1aeff55d31ab9c[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:17:45 2018 +0530
+
+    Update README.md
+
+[33mcommit 9e487aeb642b62dc89b9493bc7c6c7cdba6c5f9f[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:17:08 2018 +0530
+
+    Update README.md
+
+[33mcommit 468f026b1b0a5cea49b5c92513d2b6d5707c9753[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:16:06 2018 +0530
+
+    Added logo and tag line
+
+[33mcommit ac52fa6b5ddc2f4edb388ef2e10f464a5907c5e8[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:15:03 2018 +0530
+
+    Update README.md
+
+[33mcommit 143dcfeb339168234436216b0818fab246b2cef5[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:13:40 2018 +0530
+
+    Update README.md
+
+[33mcommit 75fc292a0e8fc0bdcf0aa4e030f51b9ebb76ec4f[m
+Merge: 4ce973f 7e2d5bd
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:12:43 2018 +0530
+
+    Merge branch 'develop' of https://github.com/pankajksingh189/JavaTutorials into develop
+
+[33mcommit 4ce973f650acead7f31e659ad3bf75f3dc20f3a7[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:12:17 2018 +0530
+
+    Added logo
+
+[33mcommit 7e2d5bd83b0bc5cfa6df11758e6291bc663ea868[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:11:46 2018 +0530
+
+    Update README.md
+
+[33mcommit 4538534c56f24ddde239a765432edf26d55999aa[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:11:07 2018 +0530
+
+    Update README.md
+
+[33mcommit 8da8bda29e375c085ed7adf89db1f2b32024ad41[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:09:27 2018 +0530
+
+    Update README.md
+
+[33mcommit eb19a6a8749c3759165a22c3531ea88b282b7328[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:08:41 2018 +0530
+
+    Update README.md
+
+[33mcommit f66f6ba4f76adfeb2765711179197a9c41f92781[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 16:04:37 2018 +0530
+
+    Update README.md
+
+[33mcommit 51a425dece9437687239d2132379a6d139ae1047[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 15:58:28 2018 +0530
+
+    Added logo
+
+[33mcommit 0b223b6250d8173cda657bd5a0e79bcedfc39287[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 27 15:41:53 2018 +0530
+
+    Added Gson Reader/writer utility
+
+[33mcommit d9cf39fa2903ed48c84176e76010626ae02584d6[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sat May 26 22:02:37 2018 +0530
+
+    Modified readme
+
+[33mcommit 7a01800d49feafaf9607e4d9f833ec3d756d0ded[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sat May 26 21:41:42 2018 +0530
+
+    Converted project to Maven
+
+[33mcommit 982b3d8fcf947bdcb2cc3f745863658eec9dac1f[m
+Merge: fa795b7 1484b77
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sat May 26 21:15:31 2018 +0530
+
+    Merge pull request #2 from pankajksingh189/develop
+    
+    Develop
+
+[33mcommit 1484b774b6c3db7499a65b54a636f40d155e6d50[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sat May 26 21:12:46 2018 +0530
+
+    Added readme
+
+[33mcommit f8771b8cdd391798b7c3ba586638cb332ea1bc13[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sat May 26 21:06:45 2018 +0530
+
+    Added Comparator
+
+[33mcommit fa795b7a590a16b03d2c64f1c67c8b6931036647[m
+Merge: d777b7c 12a3ff5
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Fri May 25 01:59:51 2018 +0530
+
+    Merge pull request #1 from pankajksingh189/develop
+    
+    Updated code
+
+[33mcommit 12a3ff513aa359292c7d0c3f9de56daa93ab85e8[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Fri May 25 01:57:29 2018 +0530
+
+    Updated code
+
+[33mcommit d777b7c6cbf98cc40e1f0b78d2ee654ebd0fbde1[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Fri May 25 01:37:26 2018 +0530
+
+    Added Map
+
+[33mcommit 5127d03b16458eb447a55cc544cacf6212858f74[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Wed May 23 01:18:24 2018 +0530
+
+    collections
+
+[33mcommit 141fe9992162d6c7d49321e4976e9be93748978c[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Wed May 23 01:16:39 2018 +0530
+
+    CollectionsFns
+
+[33mcommit 1516dffe396d45f90f1956ef03c473c639507807[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 20 15:51:54 2018 +0530
+
+    First code
+
+[33mcommit e6b50ad0ed86c0500f7ca6b8b12652a5efd6c3c8[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 20 15:43:32 2018 +0530
+
+    ADDED IGNORE
+
+[33mcommit ffbb51f9b21497c8ac5d5808fc2f499e363f7826[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 20 15:07:38 2018 +0530
+
+    Rearranged folder
+
+[33mcommit 7640f3303c863b3342642e7115004c70ecf29f98[m
+Author: pankajksingh189 <pankajksingh189@gmail.com>
+Date:   Sun May 28 17:52:05 2017 +0530
+
+    Added java codes basic
+
+[33mcommit 8252768eff5ae6ba0033ca7458df9aba31b965eb[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 28 16:43:46 2017 +0530
+
+    1st commit
+
+[33mcommit 2a164cc0895771940b66431376780bd5c5a03811[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 28 16:39:23 2017 +0530
+
+    Added text file
+
+[33mcommit 78ccfd1f55d0a3b20cb5fda87a4f55cbd3536220[m
+Author: Pankaj Singh <pankajksingh189@gmail.com>
+Date:   Sun May 28 16:31:54 2017 +0530
+
+    Initial commit
