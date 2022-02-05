@@ -28,30 +28,11 @@ public class WritePropertiesFile {
 
 			// save properties to project root folder
 			prop.store(output, "SavingFile");
-	
-		} catch (IOException e) {
-			System.out.println(e.getMessage());
-		}
-		finally {
-			if(output !=null)
-				try {
-					output.close();
-				} catch (IOException e) {
-					System.out.println(e.getMessage());
-			output=new FileOutputStream(System.getProperty("user.dir")+"/src/utils/propertiesFiles/config.properties");
-
-			// set the properties value
-			prop.setProperty("name", "Pankaj Singh");
-			prop.setProperty("email", "pankajksingh189@gmailcom");
-			prop.setProperty("pin", "400076");
-			prop.setProperty("city", "Mumbai");
-
-			// save properties to project root folder
-			prop.store(output, null);
 
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
+
 		finally {
 			if(output !=null)
 				try {
@@ -62,3 +43,4 @@ public class WritePropertiesFile {
 		}
 	}
 }
+
